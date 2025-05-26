@@ -1,0 +1,47 @@
+.minj{
+	transform: translateY(-600px);
+	position: relative;
+	animation:moveBox  3s infinite alternate;
+}
+@keyframes moveBox{
+	from{
+		left:0;
+	}
+	to{
+		left: 300px;
+	}
+
+}
+
+.dan{
+	transform: translateX(800px) translateY(-500px);
+	position: relative;
+	animation: moveDiagonal 2s infinite  alternate;
+
+}
+
+@keyframes moveDiagonal{
+	from{
+		left: 0;
+		top: 0;
+	}
+	to{
+		right: 300px;
+		top: 200px;
+	}
+}
+H1{
+	color: white;
+	transform: translateY(-250px) translateX(-80px);
+}
+
+.hanni{
+	transform: translateY(-800px) translateX(100px);
+	
+
+}
+
+.dani{
+	width: 600px;
+	transform: translateY(-800px) translateX(1200px);
+}
